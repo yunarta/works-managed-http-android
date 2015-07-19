@@ -1,1 +1,5 @@
-include ':library', ':sample'
+include ':works-managed-http'
+project(':works-managed-http').projectDir = new File('library')
+
+include ':works-managed-http-sample'
+project(':works-managed-http-sample').projectDir = new File('sample')
