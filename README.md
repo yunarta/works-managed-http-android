@@ -1,2 +1,2 @@
 # works-http-cache-android
-New works-http-cache for Android
+Abstract http caching library that utilize Android Service for execution
